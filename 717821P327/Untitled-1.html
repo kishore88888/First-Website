@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td , caption{
+  border: 1px solid black;
+  border-collapse: separate;
+  
+  background-color: rgba(21, 235, 235, 0.974);
+}
+    </style>
+</head>
+<body>
+    <table>
+           
+            <caption>Registration</caption>
+       
+    <form action="">
+        <tr>
+       <td> <label for="name">Enter name</label>
+       </td><td> <input type="text" id="name">
+    </td>
+    </tr>
+    <tr>
+        <td>
+        <label for="password">Enter password</label></td>
+        <td>
+        <input type="text" id="password">
+    </td>
+    </tr>
+    <tr>
+      <td> <label for="Address"></label>Enter Address</label></td> 
+       <td> <textarea name="address" id="Address" cols="30" rows="10"></textarea> 
+       </td>
+    </tr>
+    <tr>
+       <td> <label for="game">Select Game</label></td>
+       <td> <input type="checkbox">hockey<br>
+       <input type="checkbox" name="FootBall" id="football">football
+       <br> <input type="checkbox" name="Badminton" id="Badminton">Badminton <br>
+        <input type="checkbox" name="Cricket" id="cricket">cricket <br><input type="checkbox" name="volleyball" id="volleyball">volleyball</td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio"name = "gender" id ="male">Male
+            <input type="radio"name = "gender" id ="female">Female
+        </td>
+    </tr>
+    <tr>
+        <td>Select your age</td>
+        <td>
+            <select name="select" id="select">
+                <option value="select">select</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+    <td>
+   select photo 
+</td>
+<td>
+    <input type="file">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<button>clickme</button>
+<button>Reset</button>
+<input type="submit" >
+</td>
+</tr>
+    </form>
+</table>
+</body>
+</html>
